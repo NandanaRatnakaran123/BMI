@@ -46,12 +46,14 @@ function bmiCalculation(){
         }
         else if (bmi >30 && bmi <35)
         {
-            document.getElementById("arrow").style.transform="rotate(-49deg)"
+            document.getElementById("arrow").style.transform="rotate(-45deg)"
             document.getElementById('img-change').src="images/obese.png"
 
         }
         else {
             document.getElementById('img-change').src="images/extreem.png"
+            document.getElementById("arrow").style.transform="rotate(-9deg)"
+
 
         }
     }
